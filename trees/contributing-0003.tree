@@ -1,0 +1,9 @@
+\title{Proofs and Theorems}
+
+\p{This is written using the Forester tool, which allows us to nest trees arbitrarily. Proofs can be nested with "expando" results, so if the reader wants more details, then they can obtain it.}
+
+\p{We will also try to write proofs roughly with the level of rigour of [formal proof sketches](http://www.cs.ru.nl/F.Wiedijk/pubs/sketches2.pdf), [ForTheL](http://nevidal.org/download/forthel.pdf), or Naproche.}
+
+\p{When we define a new term, we will prove it is well-defined, i.e., the first subsequent theorem will prove its existence and uniqueness. When we define new types, we will need to prove that there is at least one object satisfying the definition.}
+
+\p{The title for a theorem tree will be its "slogan".}

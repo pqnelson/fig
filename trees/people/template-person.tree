@@ -1,0 +1,18 @@
+\title{Template for a Person}
+\author{alex-nelson}
+\date{2024-01-06}
+
+\p{A person should be stored in \code{/trees/people/person-full-name.tree} and, consequently, the person's full name must be unique (it should include a middle name, if possible). The file names use "kebab-case" (i.e., all lowercase, with words separated by dashes).}
+\p{The following entries are needed:}
+\ol{
+\li{\code{\startverb\title{Person Name}\stopverb} the person's name. Unlike the file name, it may or may not be unique; e.g., "John Baez" is acceptable, as is "John C. Baez", "John Carlos Baez", but the file name should be \code{/trees/people/john-carlos-baez} to make it as unique as possible.}
+\li{\code{\startverb\taxon{person}\stopverb} metadata indicating the entry is, in fact, a person}
+}
+\p{The following entries are supported but not required:}
+\ol{
+\li{\code{\startverb\date{yyyy-mm-dd}\stopverb}: the date which you are writing this entry}
+\li{\code{\startverb\meta{external}{url}\stopverb} the person's website (if any), just replace the "url" with the actual URL.}
+\li{\code{\startverb\meta{institution}{University Name}\stopverb} If the person is a professor, the institution where they work; preferably this should link to the institution's tree using double square brackets (e.g., \code{\startverb\meta{institution}{[[caltech]]}\stopverb})}
+\li{\code{\startverb\meta{position}{person's title}\stopverb} If the person is an Associate Professor, Full Professor, or whatever}
+\li{\code{\startverb\meta{orcid}{id-number-here}\stopverb} if the person has an ORC-ID}
+}

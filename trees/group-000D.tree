@@ -1,0 +1,9 @@
+\title{Inverse of Subset of Group}
+\author{alex-nelson}
+\import{notation}
+\date{2024-01-06}
+\taxon{definition}
+
+\p{Let #{G} be a group. Let #{A} be a [subset](group-000E) of #{G}. We define the \define{Inverse} of #{A} to be the subset of #{G} denoted #{A^{-1}=\{a^{-1}\in G\mid a\in A\}}.}
+
+\p{To prove this is well-defined, we need to prove that #{\{a^{-1}\in G\mid a\in A\}\subset\underlying{G}} really is a subset of #{G}, but this is obvious.}

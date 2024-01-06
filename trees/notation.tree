@@ -1,0 +1,45 @@
+\def\define[tm]{\em{\strong{"\tm"}}}
+
+\def\cite[ref]{\code{[[\ref]](\ref)}}
+
+\def\proof[body]{
+  \iftex{
+    \block{Proof}{\body}
+  }{
+    \block{\strong{Proof}.}{\body}
+  }
+}
+
+\def\labeled-proof[lbl][body]{
+  \iftex{
+    \block{Proof (\lbl)}{\body}
+  }{
+    \block{\strong{Proof} (\lbl).}{\body}
+  }
+}
+
+
+\def\NN{\mathbb{N}}
+\def\RR{\mathbb{R}}
+\def\ZZ{\mathbb{Z}}
+
+\def\underlying[gadget]{\mathcal{U}(\gadget)}
+\def\card[set]{|\set|}
+\def\order[group]{|\group|}
+
+\def\propersubset{\subset}
+\def\subset{\subseteq}
+\def\meet{\bigcap}
+
+\def\trivialSubgroup[G]{\mathbf{1}_{\G}}
+
+\def\subgroup{\leq}
+\def\propersubgroup{\lt}
+
+% Thank you, egreg https://tex.stackexchange.com/a/117035
+\def\divides{\bigm|}
+\def\ndivides{\mathrel{\mkern.5mu % small adjustment
+    % superimpose \nmid to \big|
+    \ooalign{\hidewidth$\big|$\hidewidth\cr$\nmid$\cr}%
+  }%
+}

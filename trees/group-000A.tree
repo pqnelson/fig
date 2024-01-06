@@ -1,0 +1,10 @@
+\title{Order of a group element}
+\author{alex-nelson}
+\import{notation}
+\date{2024-01-06}
+\taxon{definition}
+
+\p{Let #{G} be a group. Let #{g} be an element of #{G}. We define the \define{Order} of #{g} to be the smallest positive integer #{n\in\NN} such that #{g^{n}=1_{G}}. If no such integer exists, we say #{g} is of order #{\infty}.}
+
+\transclude{group-000B}
+\transclude{group-000C}

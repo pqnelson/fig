@@ -1,0 +1,23 @@
+\title{Template for a Reference}
+\author{alex-nelson}
+\date{2024-01-06}
+
+\p{References (think: bibtex entries with delusions of grandeur) should be placed in their own file in the \code{trees/refs/} directory. The file name should coincide with the Bibtex entry key, preferably \code{author-year-first-word-of-title}.}
+
+\p{The mandatory entries are:}
+
+\ol{
+\li{\code{\startverb\title{Title of Work}\stopverb} The title of the article, book, etc.}
+\li{\code{\startverb\taxon{reference}\stopverb} to indicate this is a reference}
+\li{\code{\startverb\author{author-name}\stopverb} should be the author's name, coinciding with the file name used for that person as found in the \code{/people/} subdirectory. If there are multiple authors or co-authors, then there should be one \code{\startverb\author{}\stopverb} entry for each of them.}
+\li{\code{\startverb\date{yyyy-mm-dd}\stopverb} for the \strong{date of publication}, books will just have its publication year be given for the date}
+%\li{\code{\startverb\stopverb}}
+}
+
+\p{The following fields are supported but not required:}
+
+\ol{
+\li{\code{\startverb\meta{doi}{...}\stopverb} if the work has a DOI number}
+\li{\code{\startverb\meta{bibtex}{...}\stopverb} for the Bibtex entry for the reference (probably wrapping the bibtex entry in a "startverb" and "stopverb" pairing). \strong{IMPORTANT:} the "key" for the bibtex entry should match the file name, for the citation macros to work properly.}
+}
+

@@ -1,0 +1,7 @@
+\title{Intersection with trivial subgroup}
+\author{alex-nelson}
+\import{notation}
+\date{2024-01-06}
+\taxon{theorem}
+
+\p{Let #{G} be a group. Let #{H} be a subgroup of #{G}. Then #{H\cap\trivialSubgroup{G}=\trivialSubgroup{G}} and #{\trivialSubgroup{G}\cap H=\trivialSubgroup{G}}.}

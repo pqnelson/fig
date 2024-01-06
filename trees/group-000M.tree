@@ -1,0 +1,11 @@
+\title{Multiplying a subset by a group element}
+\author{alex-nelson}
+\import{notation}
+\date{2024-01-06}
+\taxon{definition}
+
+\p{Let #{G} be a group. Let #{A} be a subset of #{G}. Let #{g} be a group element of #{G}. We define the term #{g\cdot A} to be the subset of #{G} equal to #{\{g\}\cdot A}. Similarly, we define #{A\cdot g} to be the subset of #{G} equal to #{A\cdot\{g\}}.}
+
+\transclude{group-000N}
+\transclude{group-000O}
+\transclude{group-000P}

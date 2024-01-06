@@ -1,0 +1,7 @@
+\title{Subgroups of finite groups are finite}
+\author{alex-nelson}
+\import{notation}
+\date{2024-01-06}
+\taxon{theorem}
+
+\p{Let #{G} be a group. Let #{H} be a subgroup of #{G}. If #{G} is a finite group, then #{H} is finite.}

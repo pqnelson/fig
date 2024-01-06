@@ -1,0 +1,5 @@
+\title{Introduction}
+\author{alex-nelson}
+\date{2024-01-04}
+
+\p{We get started with some set theory. ZFC probably suffices, but we may need to add Grothendieck's axiom of universes (i.e., we may need Tarski-Grothendieck set theory). We won't dwell too long on the axioms, and we may rely on the work of the Mizar Mathematical Library for formalizing mathematics using the Tarski-Grothendieck axioms.}

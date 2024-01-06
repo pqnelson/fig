@@ -1,0 +1,17 @@
+\title{Fig Project: Finite Group Theory}
+\author{alex-nelson}
+\date{2024-01-04}
+
+
+\put\transclude/toc{false}
+\put\transclude/metadata{true}
+\put\transclude/expanded{false}
+
+\scope{
+\put\transclude/numbered{false}
+\transclude{about}
+}
+
+
+\transclude{sets-0000}
+\transclude{group-0000}

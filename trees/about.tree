@@ -1,0 +1,14 @@
+\title{About the Fig Project}
+\import{notation}
+
+\p{This is an attempt to make a self-contained "stacks project" for finite group theory. It is written using [Jonathan Sterling](http://www.jonmsterling.com/)'s [Forester](https://sr.ht/~jonsterling/forester/) tool.}
+
+\p{A lot of material is being collated in the book series, aptly entitled, \em{Classification of Finite Simple Groups}. That's wonderful. But there are background materials which are cited, but quite difficult to obtain (e.g., Carter's books on finite groups of Lie type) or carves out a huge chunk of work (e.g., the classification of quasithin groups).}
+
+\p{We are trying to collate all information into a self-contained reference, which could then be used to formalize in a proof assistant. We are assuming a basic background in undergraduate mathematics (e.g., the real numbers exist, addition of real numbers is a commutative and associative binary operator, etc.).}
+
+\p{We may review finite group theory at the level of \cite{aschbacher-2000-finite}.}
+
+\p{[[contributing]] is wonderful, see the [guide](contributing) for details.}
+
+\transclude{contributing}

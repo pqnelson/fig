@@ -1,0 +1,13 @@
+\title{Finite Group Theory}
+\date{2000}
+\author{michael-aschbacher}
+\taxon{reference}
+
+\meta{bibtex}{\startverb%
+@book{aschbacher2000finite,
+  title={Finite group theory},
+  author={Aschbacher, Michael},
+  volume={10},
+  year={2000},
+  publisher={Cambridge University Press}
+}\stopverb}

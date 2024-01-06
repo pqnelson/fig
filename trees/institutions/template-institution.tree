@@ -1,0 +1,30 @@
+\title{Template for an Institution}
+\author{alex-nelson}
+\date{2024-01-06}
+
+\p{A university, college, or department qualify as an "institution".}
+
+\p{All institutions should be in their own separate files in the \code{/trees/institutions/} subdirectory.}
+
+\p{The file name for the institution should be the canonical abbreviation or name for the institution \em{in lowercase} (e.g., \code{princeton}, \code{caltech}, \code{mit}, etc.). This is because we will use institutions in [people](template-person) trees.}
+
+\p{Require fields for all institutions:}
+\ol{
+\li{\code{\startverb\title{...}\stopverb} is the name of the institution}
+% \li{\code{\startverb\stopverb}}
+}
+\p{Optional fields:}
+\ol{
+\li{\code{\startverb\meta{external}{url}\stopverb} is the website for the institution}
+}
+\p{For universities, we have the following fields:}
+\ol{
+\li{\code{\startverb\taxon{institution}\stopverb} tells Forester that the tree describes an institution (\strong{Mandatory field})}
+% \li{\code{\startverb\stopverb}}
+}
+
+\p{For departments, we have the following metadata fields:}
+\ol{
+\li{\code{\startverb\taxon{department}\stopverb} tells Forester that the tree describes a department of a university or institution (\strong{Mandatory field})}
+\li{\code{\startverb\meta{venu}{[[institution]]}\stopverb} where \code{\startverb[[institution]]\stopverb} refers to the institution's file name placed inside two brackets (e.g., \code{\startverb[[caltech]]\stopverb})}
+}

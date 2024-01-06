@@ -1,0 +1,9 @@
+\title{Abelian group}
+\author{alex-nelson}
+\import{notation}
+\date{2024-01-06}
+\taxon{definition}
+
+\p{We call a group \define{Abelian} if its multiplication operation is commutative. In this case, it is common to use additive notation instead of multiplication for the law of composition of the group.}
+
+\p{We see that the [the real numbers equipped with addition forms an Abelian group](group-0002).}

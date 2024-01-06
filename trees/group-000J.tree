@@ -1,0 +1,11 @@
+\title{Distributivity of product over intersection of subsets of a group}
+\author{alex-nelson}
+\import{notation}
+\date{2024-01-06}
+\taxon{theorem}
+
+\p{Let #{G} be a group. Let #{A}, #{B}, #{C} be subsets of #{G}. Then
+\ol{
+\li{#{A\cdot(B\cap C)=(A\cdot B)\cap(A\cdot C)}, and}
+\li{#{(A\cap B)\cdot C=(A\cdot C)\cap(B\cdot C)}}
+}}

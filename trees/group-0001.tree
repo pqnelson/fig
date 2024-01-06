@@ -1,0 +1,26 @@
+\title{Group}
+\author{alex-nelson}
+\date{2024-01-04}
+\taxon{definition}
+\import{notation}
+
+\p{A \define{Group} consists of a set #{G} equipped with
+\ol{
+\li{a binary operator #{\cdot\colon G\times G\to G} called the Group's \em{law of composition} (or sometimes, its multiplication);}
+\li{a unary operator #{(-)^{-1}\colon G\to G} which is called the inverse operator;}
+\li{a constant #{1\in G} (or #{1_{G}\in G} if we need to specify the group);}
+}
+such that:
+\ol{
+\li{associativity: for all elements #{g_{1},g_{2},g_{3}\in G}, we have #{g_{1}\cdot(g_{2}\cdot g_{3})=(g_{1}\cdot g_{2})\cdot g_{3}}.}
+\li{unital: there exists an element #{1\in G} such that for all #{g\in G} we have #{g\cdot 1=1\cdot g=g};}
+\li{inversion: for each element #{g\in G} there exists an element #{h\in G} such that #{h\cdot g=g\cdot h=1}, and we usually denote #{h=g^{-1}};}
+}
+}
+\p{It is convention to refer to a group by its underlying set #{G} as opposed to the structure #{\langle G,\cdot,1_{G}\rangle}. When it is clear, we will do likewise. When we need to be explicitly clear that we're referring to the underlying set, we will write #{\underlying{G}}.}
+\p{When the underlying set #{\underlying{G}} is finite, we say #{G} is a \define{Finite Group}.}
+
+\transclude{group-0002}
+\transclude{group-0008}
+\transclude{group-000E}
+

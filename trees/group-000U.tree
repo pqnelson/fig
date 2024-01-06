@@ -1,0 +1,17 @@
+\title{Intersection of two subgroups is a subgroup}
+\author{alex-nelson}
+\import{notation}
+\date{2024-01-06}
+\taxon{definition}
+
+\p{Let #{G} be a group. Let #{H_{1}} and #{H_{2}} be subgroups of #{G}. We define the \define{Intersection} of #{H_{1}} and #{H_{2}} to be the subgroup of #{G} denoted #{H_{1}\cap H_{2}} whose underlying set is the intersection of the underlying sets #{\underlying{H_{1}\cap H_{2}}=\underlying{H_{1}}\cap\underlying{H_{2}}}.}
+
+\transclude{group-000Y}
+\transclude{group-000X}
+\transclude{group-000V}
+\transclude{group-0010}
+\transclude{group-000W}
+\transclude{group-000Z}
+\transclude{group-0011}
+\transclude{group-0012}
+\transclude{group-0013}

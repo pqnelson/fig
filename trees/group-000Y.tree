@@ -1,0 +1,7 @@
+\title{Idempotence of intersection of subgroups}
+\author{alex-nelson}
+\import{notation}
+\date{2024-01-06}
+\taxon{theorem}
+
+\p{Let #{G} be group. Let #{H} be a subgroup of #{G}. Then #{H\cap H=H}.}

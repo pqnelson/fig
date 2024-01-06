@@ -1,0 +1,19 @@
+\title{Cosets. Multiplying subgroups by group elements}
+\author{alex-nelson}
+\import{notation}
+\date{2024-01-06}
+\taxon{definition}
+
+\p{Let #{G} be a group. Let #{H} be a subgroup of #{G}. Let #{g} be an element of #{G}. We define the term \define{Left Coset} of #{H} with representative #{g}, denoted #{g\cdot H}, to be the subset of #{G} equal to #{g\cdot\underlying{H}}.}
+
+\p{Similarly, we define the term \define{Right Coset} of #{H} with representative #{g}, denoted #{H\cdot g}, to be the subset of #{G} equal to #{\underlying{H}\cdot g}.}
+
+\transclude{group-0017}
+\transclude{group-0018}
+\transclude{group-0019}
+\transclude{group-001A}
+\transclude{group-001B}
+\transclude{group-001C}
+\transclude{group-001D}
+\transclude{group-001E}
+\transclude{group-001F}

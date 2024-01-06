@@ -1,0 +1,5 @@
+\title{Notation}
+
+\p{Notation is abstracted away in the \code{/trees/notation.tree} file, but local conventions can be adapted thanks to Forester's macro scoping capabilities.}
+
+\p{This also allows us to abstract away the choice of notation, so writing \code{\startverb\center{G}\stopverb} allows us to change the notation for the center of a group in one single line.}

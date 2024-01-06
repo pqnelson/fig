@@ -1,0 +1,9 @@
+\title{LaTeX Conventions}
+
+\p{If you are writing LaTeX for inclusion, the permitted theorem environments are: theorem, lemma, corollary, definition, example, situation, remark, schemes, and proof.}
+
+\p{A "scheme" is a theorem with universally quantified second-order variables, so we can formally state the proof strategy "proof by minimal counter-example" as a scheme, and appeal to it in future proofs.}
+
+\p{If you want to reference a theorem (definition, etc.), then use \code{\startverb\label{thm:file-name:result-label}\stopverb} as the template for labels. The abridged version of environment names: thm, lem, cor, def, ex, sit, rmk, sch.}
+
+\p{Do not start a sentence with a mathematical symbol.}

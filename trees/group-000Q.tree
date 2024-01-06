@@ -1,0 +1,20 @@
+\title{Subgroup}
+\author{alex-nelson}
+\import{notation}
+\date{2024-01-06}
+\taxon{definition}
+
+\p{Let #{G} be a group. A \define{Subgroup} of #{G} consists of a nonempty subset #{H} of #{G} such that the binary operator of #{G} restricted to #{H} is a binary operator of #{H}, and the inverse operator of #{G} restricted to #{H} is a unary operator of #{H}, and #{1_{G}\in H}. In this case, #{H} satisfies the axioms of a group structure, i.e., #{H} is a group.}
+
+\p{That is to say, a subgroup #{H=\langle\underlying{H},\cdot|_{\underlying{H}\times\underlying{H}},1_{G}\rangle} of #{G} is a group such that #{\underlying{H}\subset\underlying{G}} and the group structure on #{H} is obtained by restriction from #{G} to #{H}.}
+
+\p{When #{H} is a subgroup of #{G}, it is common to write #{H\subgroup G}. When #{H\neq G}, we call it a \define{Proper} subgroup of #{G} and indicate this by writing #{H\propersubgroup G}.}
+
+\p{An \define{Improper} subgroup of #{G} is a subgroup which is not proper, i.e., it is precisely equal to #{G} considered as a subgroup of #{G}.}
+
+\transclude{group-000R}
+\transclude{group-000S}
+\transclude{group-000T}
+\transclude{group-000U}
+\transclude{group-0014}
+\transclude{group-0016}

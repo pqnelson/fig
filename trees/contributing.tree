@@ -1,0 +1,28 @@
+\title{Contributing}
+\author{alex-nelson}
+\date{2024-01-06}
+
+\p{Feel free to contribute to the project. If you want to write some mathematics, feel free to do so. If it's a short contribution, you can add it directly. For longer entries, to avoid [race conditions](https://en.wikipedia.org/wiki/Race_condition) with tree numbering, please write it in LaTeX and submit a pull-request (or email me). Be sure to add yourself as an entry in the \code{/people/} directory.}
+
+\p{The golden rules for writing: be clear, be kind to the reader, refer only to results which precede the current sentence.}
+
+\p{Explicitly state all hypotheses for a proposition.}
+
+\p{The forester tool doesn't support equation numbering, so we have to structure text around this short-coming.}
+
+\p{Citations can be done using the usual \code{\startverb\cite{...}\stopverb} using the file-name for the reference.}
+
+\transclude{contributing-0000}
+\transclude{contributing-0001}
+\transclude{contributing-0002}
+\transclude{contributing-0003}
+
+
+\put\transclude/toc{false}
+\put\transclude/numbered{false}
+\put\transclude/metadata{true}
+\put\transclude/expanded{false}
+
+\transclude{template-person}
+\transclude{template-reference}
+\transclude{template-institution}

@@ -1,0 +1,11 @@
+\title{Power laws for group elements}
+\author{alex-nelson}
+\import{notation}
+\date{2024-01-06}
+\taxon{theorem}
+
+\p{Let #{G} be a group. Let #{g} be an element of #{G}. Let #{m,n\in\ZZ}. Then:
+\ol{
+\li{#{(g^{m})(g^{n})=g^{m+n}}}
+\li{#{(g^{m})^{n}=g^{mn}}.}
+}}
