@@ -18,24 +18,6 @@
   }
 }
 
-
-\def\NN{\mathbb{N}}
-\def\RR{\mathbb{R}}
-\def\ZZ{\mathbb{Z}}
-
-\def\underlying[gadget]{\mathcal{U}(\gadget)}
-\def\card[set]{|\set|}
-\def\order[group]{|\group|}
-
-\def\propersubset{\subset}
-\def\subset{\subseteq}
-\def\meet{\bigcap}
-
-\def\trivialSubgroup[G]{\mathbf{1}_{\G}}
-
-\def\subgroup{\leq}
-\def\propersubgroup{\lt}
-
 % Thank you, egreg https://tex.stackexchange.com/a/117035
 \def\divides{\bigm|}
 \def\ndivides{\mathrel{\mkern.5mu % small adjustment
@@ -43,3 +25,26 @@
     \ooalign{\hidewidth$\big|$\hidewidth\cr$\nmid$\cr}%
   }%
 }
+
+% set theory
+\def\NN{\mathbb{N}}
+\def\RR{\mathbb{R}}
+\def\ZZ{\mathbb{Z}}
+
+\def\card[set]{|\set|}
+
+\def\propersubset{\subset}
+\def\subset{\subseteq}
+\def\meet{\bigcap}
+
+% group theory
+\def\underlying[gadget]{\mathcal{U}(\gadget)}
+\def\order[group]{|\group|}
+\def\trivialSubgroup[G]{\mathbf{1}_{\G}}
+
+\def\subgroup{\leq}
+\def\propersubgroup{\lt}
+
+\def\leftcosets[G][H]{\G / \H}
+\def\rightcosets[G][H]{\G\backslash\H}
+\def\index[G][H]{[\G : \H]}

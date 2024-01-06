@@ -1,0 +1,9 @@
+\title{index for subgroup of finite group is a natural number}
+\author{alex-nelson}
+\import{notation}
+\date{2024-01-06}
+\taxon{theorem}
+
+\p{Let #{G} be a finite group. Let #{H} be a subgroup of #{G}. Then #{\index{G}{H}} is a natural number.}
+
+\p{More generally, when #{\leftcosets{G}{H}} is a finite set, #{\index{G}{H}} is a natural number.}
