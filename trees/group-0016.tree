@@ -1,4 +1,4 @@
-\title{Cosets. Multiplying subgroups by group elements}
+\title{left and right cosets}
 \author{alex-nelson}
 \import{notation}
 \date{2024-01-06}
@@ -8,14 +8,3 @@
 
 \p{Similarly, we define the term \define{Right Coset} of #{H} with representative #{g}, denoted #{H\cdot g}, to be the subset of #{G} equal to #{\underlying{H}\cdot g}.}
 
-\transclude{group-0017}
-\transclude{group-0018}
-\transclude{group-0019}
-\transclude{group-001A}
-\transclude{group-001B}
-\transclude{group-001C}
-\transclude{group-001D}
-\transclude{group-001E}
-\transclude{group-001F}
-\transclude{group-001G}
-\transclude{group-001I}

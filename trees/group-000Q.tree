@@ -12,9 +12,3 @@
 
 \p{An \define{Improper} subgroup of #{G} is a subgroup which is not proper, i.e., it is precisely equal to #{G} considered as a subgroup of #{G}.}
 
-\transclude{group-000R}
-\transclude{group-000S}
-\transclude{group-000T}
-\transclude{group-000U}
-\transclude{group-0014}
-\transclude{group-0016}

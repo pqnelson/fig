@@ -1,4 +1,5 @@
 \title{LaTeX Conventions}
+\author{alex-nelson}
 
 \p{If you are writing LaTeX for inclusion, the permitted theorem environments are: theorem, lemma, corollary, definition, example, situation, remark, schemes, and proof.}
 

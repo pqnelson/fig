@@ -1,4 +1,5 @@
 \title{About the Fig Project}
+\author{alex-nelson}
 \import{notation}
 
 \p{This is an attempt to make a self-contained "stacks project" for finite group theory. It is written using [Jonathan Sterling](http://www.jonmsterling.com/)'s [Forester](https://sr.ht/~jonsterling/forester/) tool.}
