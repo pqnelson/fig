@@ -55,6 +55,7 @@
   ;; subdirectory somewhere else, so we need to change directories to
   ;; get to the forest
   (cd forest-tree-dir)
+  (cd "..")
   (let ((choice (completing-read (format "Tree namespace [%s]: "
                                          forest-mode-namespace-default)
                                  (forest-mode-complete-namespaces)
@@ -65,21 +66,21 @@
     (unless (member choice forest-tree-namespaces-coll)
       (push choice forest-tree-namespaces-coll))
     ;; debugging, save the commands
-    (setq v1 (format "opam exec -- forester new --dir=%s --prefix=%s"
+    (setq v1 (format "opam exec -- forester new --dest=%s --prefix=%s"
                      (get-forest-tree-dir-path) ;; (expand-file-name forest-tree-dir)
                      choice))
     (setq r1 (shell-command-to-string
-              (format "opam exec -- forester new --dir=%s --prefix=%s"
+              (format "opam exec -- forester new --dest=%s --prefix=%s"
                       (get-forest-tree-dir-path)
                       ;; forest-tree-dir
                       choice)))
     ;; open the newly created tree, and prepopulate it with info
     (let ((file-name (car (last (split-string r1)))))
       (setq forest-recently-created-tree
-            (if (string-suffix-p file-name ".tree")
+            (if (string-suffix-p ".tree" file-name)
                 (substring file-name 0 -5)
               file-name))
-      (if (string-suffix-p file-name ".tree")
+      (if (string-suffix-p ".tree" file-name)
           (find-file file-name)
           (find-file (format "%s.tree" file-name))))
     (insert "\\title{}\n")
@@ -148,15 +149,16 @@
   ;; OCaml's Eio library freaks out if you try to reference a
   ;; subdirectory somewhere else, so we need to change directories to
   ;; get to the forest
-  (let ((before-moving-dir default-directory))
+  (let ((before-moving-dir default-directory)
+        (command "opam exec -- foretser build"))
     (setq forest-mode-dir-before-compiling default-directory)
     (cd forest-tree-dir)
     (cd "..") ;; forester freaks out if we're not in the parent dir to the trees
-    (setq c1 (format "opam exec -- forester build --dev --root %s %s/"
+    (setq c1 (format command
                      forest-mode-root-tree
                      (get-forest-tree-dir-path)))
     (setq br1 (shell-command-to-string
-               (format "opam exec -- forester build --dev --root %s %s/"
+               (format command
                        forest-mode-root-tree
                        (get-forest-tree-dir-path))))
     (cd forest-mode-dir-before-compiling)))

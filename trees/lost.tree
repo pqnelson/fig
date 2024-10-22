@@ -1,0 +1,45 @@
+\title{Lost trees (unreachable by links alone)}
+\author{alex-nelson}
+\import{notation}
+\date{2024-10-22}
+
+\p{I worry that some of the notes I take may be lost (in the sense that they are unreachable by transclusion or links). This is roughly a "first approximation" to listing all the trees which are unreachable.}
+
+\p{\strong{Caution:} This \em{will} break upon the next major version update of Forester, since they'll be moving to datalog.}
+
+\def\query/transclusion-coslice[x]{
+ \open\query
+ \rel{\paths}{\outgoing}{\rel/transclusion}{\x}
+}
+
+\scope{
+  \def\query/root/transcluded{
+    \open\query
+    \union-fam-rel{\query/transclusion-coslice{xxx-0001}}{\paths}{\outgoing}{\transclusion}
+  }
+  \def\query/root/linked{
+    \open\query
+    \union-fam-rel{\query/transclusion-coslice{xxx-0001}}{\paths}{\outgoing}{\links}
+  }
+  \def\query/normal{
+    \open\query
+    \union{\query/transclusion-coslice{xxx-0001}}{\query/root/transcluded}{\query/root/linked}
+  }
+  
+  \def\query/lost{
+    \open\query
+    \compl{\query/normal}
+    %\compl{\query/transclusion-coslice{xxx-0001}}
+  }
+}
+
+\scope{
+  \open\query
+  \open\rel
+  
+  \query{
+    \open\query
+    \lost
+  }
+}
+

@@ -1,6 +1,13 @@
+\title{Notation common to group theory}
+
 \def\define[tm]{\em{\strong{"\tm"}}}
 
+
+\p{The \code{\startverb\cite\stopverb} is based on a [discussion](https://lists.sr.ht/~jonsterling/forester-discuss/<D3HYZ2R63VU8.1GKFJ4TTQV54U@nickx.hu>) in the mailing list. It seems to be unstable in Forester, so care must be taken.}
+
 \def\cite[uid]{\let\escape[x]{\x}[\escape{[\uid]}](\uid)}
+
+\p{Proofs are also quite hacky. It would be better to also include a Halmos tombstone at the very end.}
 
 \def\proof[body]{
  \scope{
@@ -12,6 +19,7 @@
  }
 }
 
+% TODO: make this work?
 \def\labeled-proof[lbl][body]{
  \scope{
    \put\transclude/toc{false}
@@ -41,6 +49,8 @@
 \def\subset{\subseteq}
 \def\meet{\bigcap}
 
+\p{Basic notational macros to semantically present group theory. Most of it is fairly standard.}
+
 % group theory
 \def\underlying[gadget]{\mathcal{U}(\gadget)}
 \def\order[group]{|\group|}
@@ -52,3 +62,4 @@
 \def\leftcosets[G][H]{\G / \H}
 \def\rightcosets[G][H]{\G\backslash\H}
 \def\index[G][H]{[\G : \H]}
+
