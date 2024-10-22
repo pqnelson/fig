@@ -1,5 +1,9 @@
 /* SPDX-License-Identifier: CC0-1.0 */
 
+.katex {
+ font-size: 1.15em !important;
+}
+
 /* inria-sans-300 - latin_latin-ext */
 @font-face {
   font-display: swap;
@@ -120,13 +124,21 @@ code {
   border-radius: var(--radius);
   background-color: rgba(0, 100, 100, 0.04);
   padding: 0.2em;
-  font-size: 11pt;
+  font-size: 0.9em;
 }
 
 body {
   font-family: "Inria Sans";
   font-size: 12pt;
-  line-height: 1.5em;
+  line-height: 1.55;
+}
+
+math {
+ font-size: 1.12em;
+}
+
+mrow:hover {
+ background-color: rgba(0, 100, 255, 0.04);
 }
 
 .logo {
@@ -225,12 +237,13 @@ details h1 {
   display: inline;
 }
 
-section .block[data-taxon]>details>summary>header>h1 {
+section .block[data-taxon] details>summary>header>h1 {
   font-size: 12pt;
 }
 
 span.taxon {
   color: #444;
+  font-weight: bolder;
 }
 
 
@@ -285,21 +298,34 @@ nav#toc a {
   color: #555;
 }
 
+nav#toc .link {
+ box-shadow: none;
+ text-decoration: none;
+}
+
+nav#toc a.bullet {
+ opacity: 0.7;
+ margin-left: 0.4em;
+ margin-right: 0.3em;
+ padding-left: 0.2em;
+ padding-right: 0.2em;
+ text-decoration: none;
+}
+
 nav#toc h2 {
   font-size: 1.1em;
 }
 
 nav#toc ul {
-  padding-left: 1.5em;
-  list-style-type: square;
+  list-style-type: none;
 }
 
-.toc-item-label {
-  font-weight: bolder;
+nav#toc li > ul {
+ padding-left: 1em;
 }
 
-.katex {
-  font-size: 1.2em;
+nav#toc li {
+ list-style-position: inside;
 }
 
 .block {
@@ -325,16 +351,6 @@ nav#toc ul {
   border-color: #aaa;
 }
 
-.block>.block-uid {
-  visibility: hidden;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.block:hover>.block-uid {
-  visibility: visible;
-}
-
 .slug,
 .doi,
 .orcid {
@@ -343,11 +359,8 @@ nav#toc ul {
 }
 
 .edit-button {
-    display: none;
-}
-
-.error {
-  color: rgb(255, 50, 50, .8);
+  color: rgb(180, 180, 180);
+  font-weight: 200;
 }
 
 .block {
@@ -357,31 +370,17 @@ nav#toc ul {
   border-radius: 5px;
 }
 
-.block>.toggle-children-button {
-  padding-right: 3pt;
-  visibility: hidden;
-  float: right;
-}
-
-.block:hover>.toggle-children-button {
-  visibility: visible;
-}
-
-a.external {
+.link.external {
   text-decoration: underline;
 }
 
-a.toc {
-  box-shadow: none;
-  text-decoration: none;
-}
-
-a.local,
+a.link.local,
+.link.local a,
 a.slug {
   box-shadow: none;
-  text-decoration: underline;
+  text-decoration-line: underline;
   text-decoration-style: dotted;
-}
+ }
 
 ninja-keys::part(ninja-action) {
   white-space: nowrap;
@@ -509,12 +508,20 @@ blockquote {
   border-inline-start: 1px solid var(--secondary);
 }
 
-a:hover {
+a.slug:hover,
+a.bullet:hover,
+.edit-button:hover,
+.link:hover {
   background-color: rgba(0, 100, 255, .1);
+}
+
+.link {
+ cursor: pointer;
 }
 
 a {
   color: black;
+  text-decoration: inherit;
 }
 
 .nowrap {
@@ -558,10 +565,13 @@ img {
   max-width: 100%;
 }
 
+figure {
+  text-align: center;
+}
+
 figcaption {
   font-style: italic;
   padding: 3px;
-  text-align: center;
 }
 
 mark {
@@ -575,4 +585,40 @@ hr {
   border: 0 none;
   width: 100%;
   height: 2px;
+}
+
+ul, ol {
+ padding-bottom: .5em;
+}
+
+ol {
+ list-style-type: decimal;
+}
+
+ol li ol {
+ list-style-type: lower-alpha;
+}
+
+ol li ol li ol {
+ list-style-type: lower-roman;
+}
+
+.error, .info {
+  border-radius: 4pt;
+  padding-left: 3pt;
+  padding-right: 3pt;
+  padding-top: 1pt;
+  padding-bottom: 2pt;
+  font-weight: bold;
+}
+
+.error {
+ background-color: red;
+ color: white;
+}
+
+
+.info {
+ background-color: #bbb;
+ color: white;
 }

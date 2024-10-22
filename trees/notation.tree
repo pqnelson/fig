@@ -1,21 +1,25 @@
 \def\define[tm]{\em{\strong{"\tm"}}}
 
-\def\cite[ref]{\code{[[\ref]](\ref)}}
+\def\cite[uid]{\let\escape[x]{\x}[\escape{[\uid]}](\uid)}
 
 \def\proof[body]{
-  \iftex{
-    \block{Proof}{\body}
-  }{
-    \block{\strong{Proof}.}{\body}
-  }
+ \scope{
+   \put\transclude/toc{false}
+   \subtree{
+     \taxon{proof}
+     \body
+   }
+ }
 }
 
 \def\labeled-proof[lbl][body]{
-  \iftex{
-    \block{Proof (\lbl)}{\body}
-  }{
-    \block{\strong{Proof} (\lbl).}{\body}
-  }
+ \scope{
+   \put\transclude/toc{false}
+   \subtree{
+     \taxon{proof}
+     \body
+   }
+ }
 }
 
 % Thank you, egreg https://tex.stackexchange.com/a/117035
