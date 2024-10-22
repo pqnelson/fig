@@ -1,0 +1,18 @@
+\title{Normal series}
+\author{alex-nelson}
+\import{notation}
+\date{2024-10-22}
+\taxon{definition}
+
+\p{Let #{G} be a group (not necessarily finite). We define a \define{Normal Series} to be a \em{finite} sequence of normal subgroups of #{G}:}
+
+##{\trivialSubgroup{G}=N_{0}\subgroup N_{1}\subgroup\cdots\subgroup N_{n}=G}
+
+\p{such that}
+
+\ul{
+\li{for each #{i=0,\dots,n-1} we have #{N_{i}\normalSubgroup N_{i+1}};}
+\li{for each #{i=0,\dots,n}, we also stress #{N_{i}\normalSubgroup G}.}
+}
+
+\p{It seems like it should be formalized as a \code{FinSequence of [the_normal_subgroups_of](https://mizar.uwb.edu.pl/version/current/html/grnilp_1.html#K2) G} satisfying an additional property.}

@@ -1,0 +1,13 @@
+\title{An Introduction to the Theory of Groups}
+\author{joseph-rotman}
+\date{1995}
+\taxon{reference}
+
+\meta{bibtex}{\startverb%
+@book{rotman1995intro,
+  title={{An Introduction to the Theory of Groups}},
+  author={Rotman, Joseph},
+  volume={148},
+  year={1995},
+  publisher={Cambridge University Press}
+}\stopverb}

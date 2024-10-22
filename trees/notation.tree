@@ -7,6 +7,18 @@
 
 \def\cite[uid]{\let\escape[x]{\x}[\escape{[\uid]}](\uid)}
 
+\p{When we want to have a list of references for a given tree, we can use the \code{\startverb\refs{...}\stopverb} macro. It expects a sequence of \code{\startverb\li ...\stopverb} entries.}
+
+\def\refs[body]{
+ \scope{
+   \put\transclude/toc{false}
+   \subtree{
+     \taxon{references}
+     \ol{\body}
+   }
+ }
+}
+
 \p{Proofs are also quite hacky. It would be better to also include a Halmos tombstone at the very end.}
 
 \def\proof[body]{
@@ -58,6 +70,8 @@
 
 \def\subgroup{\leq}
 \def\propersubgroup{\lt}
+
+\def\normalSubgroup{\trianglelefteq}
 
 \def\leftcosets[G][H]{\G / \H}
 \def\rightcosets[G][H]{\G\backslash\H}

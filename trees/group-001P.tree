@@ -1,0 +1,21 @@
+\title{Group action}
+\author{alex-nelson}
+\import{notation}
+\date{2024-10-22}
+\taxon{definition}
+% \meta{source}{Chapter 3, page 55, \cite{rotman-1995-intro}}
+
+\p{Let #{X} be a set, let #{G} be a group. We define a \define{Left Group Action} of #{G} on #{X} (or, a #{G}-Left Action on #{X}) to be a function #{\alpha\colon G\times X\to X} such that}
+\ul{
+\li{Identity: #{\alpha(1_{G},x)=x} for all #{x\in X};}
+\li{Compatibility: For all #{g,h\in G} and all #{x\in X}, we have #{\alpha(g,\alpha(h,x))=\alpha(gh,x)}.}
+}
+\p{Similarly, a \define{Right Group Action} is a mapping #{\alpha\colon X\times G\to X} satisfying:}
+\ul{
+\li{Identity: #{\alpha(x,1_{G})=x} for all #{x\in X};}
+\li{Compatibility: For all #{g,h\in G} and all #{x\in X}, we have #{\alpha(\alpha(x,h),g)=\alpha(x,gh)}.}
+}
+
+\refs{
+\li{Chapter 3, page 55, \cite{rotman-1995-intro}}
+}
