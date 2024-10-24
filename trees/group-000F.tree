@@ -7,6 +7,8 @@
 
 \p{Let #{G} be a group. Let #{A} and #{B} be subsets of #{G}. We define their \define{Product} to be the subset #{A\cdot B} of #{G} satisfying #{A\cdot B=\{a\cdot b\in G\mid a\in A,b\in B\}}.}
 
+\p{Sometimes the literature refers to this as the "Frobenius product" to avoid confusing it with the "Cartesian product" of sets. This is not standard terminology, as there is no standard term for this operation.}
+
 \transclude{group-000G}
 
 \transclude{group-000H}

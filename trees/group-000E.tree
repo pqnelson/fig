@@ -3,6 +3,7 @@
 \import{notation}
 \date{2024-01-06}
 \taxon{Terminology}
+\MML{struct_0}{abbreviation}{NM1}
 
 \p{Let #{G=\langle\underlying{G},\cdot,1_{G}\rangle} be a group. We call an object #{g} an \define{Element of #{G}} if #{g} is an element of the underlying set #{g\in\underlying{G}}.}
 
