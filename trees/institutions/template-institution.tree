@@ -8,6 +8,8 @@
 
 \p{The file name for the institution should be the canonical abbreviation or name for the institution \em{in lowercase} (e.g., \code{princeton}, \code{caltech}, \code{mit}, etc.). This is because we will use institutions in [people](template-person) trees.}
 
+\p{\strong{Convention:} use the URL domain for the file name. For example, the University of Vermont is [uvm](uvm). This works for the previous paragraphs convention as well (since Caltech's website is \code{caltech.edu}, Princeton is \code{princeton.edu}, and so on).}
+
 \p{Require fields for all institutions:}
 \ol{
 \li{\code{\startverb\title{...}\stopverb} is the name of the institution}

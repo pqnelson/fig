@@ -1,6 +1,10 @@
 \title{Template for Definitions}
 \author{alex-nelson}
+\import{notation}
 
 \p{Definitions should follow the Baez--Dolan [Stuff, Structure, Properties](https://ncatlab.org/nlab/show/stuff,+structure,+property) template, which can be determined by examining [internal](https://ncatlab.org/nlab/show/internalization) versions of the gadgets interpreting the objects as "stuff", morphisms as "structure", and commutative diagrams as "properties" (e.g., [internal group objects](https://ncatlab.org/nlab/show/group+object) guided our [definition](group-0001) of a group).}
 
-\p{A lot of definitions in finite group theory do not neatly fit this, and so we adapt as needs must when the devil drives.}
+\p{A lot of definitions in finite group theory do not neatly fit this, and so we adapt (as needs must when the devil drives).}
+
+\transclude{contributing-0004}
+\transclude{contributing-0005}

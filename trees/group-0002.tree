@@ -3,6 +3,7 @@
 \date{2024-01-06}
 \taxon{theorem}
 \import{notation}
+\MML{group_1}{thm 3}{T3}
 
 \p{The real numbers equipped with addition #{\langle\RR,+,0\rangle} forms a group.
 Morever, for all #{x,y\in\RR} we have #{x+y=y+x}.}

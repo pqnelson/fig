@@ -1,0 +1,14 @@
+\title{Abstract Algebra}
+\author{david-s-dummit}
+\author{richard-m-foote}
+\date{2004}
+\taxon{reference}
+
+\meta{bibtex}{\startverb%
+@book{dummit-foote,
+  title={{Abstract Algebra}},
+  author={Dummit, David S. and Foote, Richard M.},
+  year={2004},
+  edition={Third},
+  publisher={Wiley}
+}\stopverb}

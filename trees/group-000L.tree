@@ -3,5 +3,6 @@
 \import{notation}
 \date{2024-01-06}
 \taxon{theorem}
+\MML{group_2}{thm 17}{T17}
 
 \p{Let #{G} be a group. Let #{\underlying{G}} be the underlying set of #{G} considered as a subset of #{G}. Let #{A} be any subset of #{G}. Then #{A\cdot\underlying{G}=\underlying{G}} and #{\underlying{G}\cdot A=\underlying{G}}.}

@@ -3,6 +3,7 @@
 \import{notation}
 \date{2024-01-06}
 \taxon{definition}
+\MML{group_1}{def 12}{D12}
 
 \p{We call a group \define{Abelian} if its multiplication operation is commutative. In this case, it is common to use additive notation instead of multiplication for the law of composition of the group.}
 

@@ -1,0 +1,6 @@
+\title{LaTeX macros for usage in Forester}
+% latex replacements
+\def\S{§}
+\def\textit[text]{\em{\text}}
+\def\textbf[text]{\strong{\text}}
+\def\emph[text]{\em{\text}}

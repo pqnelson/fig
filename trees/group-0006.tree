@@ -3,5 +3,6 @@
 \import{notation}
 \date{2024-01-06}
 \taxon{theorem}
+\MML{group_1}{thm 31}{T31}
 
 \p{Let #{G} be a group. Let #{n\in\ZZ}. Then #{(1_{G})^{n}=1_{G}}.}

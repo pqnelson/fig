@@ -1,0 +1,8 @@
+\title{Using proof assistants}
+\author{alex-nelson}
+\import{notation}
+\date{2024-10-24}
+
+\p{Reference to results proven in a proof assistant could be included as a comment or as a \code{\startverb\meta{source}{<prover name> [library name](url)}\stopverb} field.}
+
+\p{There is an \code{\startverb\MML{article_name}{thm X}{link_anchor}\stopverb} macro to facilitate linking to Mizar Mathematical Library entries.}

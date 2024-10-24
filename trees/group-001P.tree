@@ -3,19 +3,21 @@
 \import{notation}
 \date{2024-10-22}
 \taxon{definition}
-% \meta{source}{Chapter 3, page 55, \cite{rotman-1995-intro}}
 
-\p{Let #{X} be a set, let #{G} be a group. We define a \define{Left Group Action} of #{G} on #{X} (or, a #{G}-Left Action on #{X}) to be a function #{\alpha\colon G\times X\to X} such that}
+\p{Let #{X} be a set, let #{G} be a group. We define a \define{Left Group Action} of #{G} on #{X} (or, a #{G}-Left Action on #{X}) to be a function #{\lambda\colon G\times X\to X} such that}
 \ul{
-\li{Identity: #{\alpha(1_{G},x)=x} for all #{x\in X};}
-\li{Compatibility: For all #{g,h\in G} and all #{x\in X}, we have #{\alpha(g,\alpha(h,x))=\alpha(gh,x)}.}
+\li{Identity: For all #{x\in X} we have #{\lambda(1_{G},x)=x};}
+\li{Compatibility: For all #{g,h\in G} and all #{x\in X}, we have #{\lambda(g,\lambda(h,x))=\lambda(gh,x)}.}
 }
-\p{Similarly, a \define{Right Group Action} is a mapping #{\alpha\colon X\times G\to X} satisfying:}
+\p{Similarly, a \define{Right Group Action} is a mapping #{\rho\colon X\times G\to X} satisfying:}
 \ul{
-\li{Identity: #{\alpha(x,1_{G})=x} for all #{x\in X};}
-\li{Compatibility: For all #{g,h\in G} and all #{x\in X}, we have #{\alpha(\alpha(x,h),g)=\alpha(x,gh)}.}
+\li{Identity: #{\rho(x,1_{G})=x} for all #{x\in X};}
+\li{Compatibility: For all #{g,h\in G} and all #{x\in X}, we have #{\rho(\rho(x,h),g)=\rho(x,gh)}.}
 }
 
 \refs{
+\li{Bourbaki, \cite{bourbaki-1989-algebra-i}, first appeared to formalize the notion of an "action" in full generality (I \S 3)}
 \li{Chapter 3, page 55, \cite{rotman-1995-intro}}
+\li{Chapter 1, Section 6, page 34, \cite{robinson-1996-theory}}
+\li{Chapter 1, Section 7, of \cite{dummit-foote} --- they repeat the same definition}
 }

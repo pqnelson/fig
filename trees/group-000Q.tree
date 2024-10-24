@@ -3,6 +3,8 @@
 \import{notation}
 \date{2024-01-06}
 \taxon{definition}
+\MML{group_2}{def 5}{D5}
+
 
 \p{Let #{G} be a group. A \define{Subgroup} of #{G} consists of a nonempty subset #{H} of #{G} such that the binary operator of #{G} restricted to #{H} is a binary operator of #{H}, and the inverse operator of #{G} restricted to #{H} is a unary operator of #{H}, and #{1_{G}\in H}. In this case, #{H} satisfies the axioms of a group structure, i.e., #{H} is a group.}
 

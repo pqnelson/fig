@@ -3,6 +3,8 @@
 \import{notation}
 \date{2024-01-06}
 \taxon{theorem}
+\MML{group_2}{thm 116}{T116}
+\MML{group_2}{thm 122}{T122}
 
 \p{Let #{G} be a group. Let #{H} be a subgroup of #{G}. Let #{a} and #{b} be elements of #{G}. Then:
 \ol{

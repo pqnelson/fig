@@ -3,5 +3,6 @@
 \import{notation}
 \date{2024-01-06}
 \taxon{theorem}
+\MML{group_2}{thm 11}{T11}
 
 \p{Let #{G} be a group. Let #{A} and #{B} be subsets of #{G}. Then #{(A\cdot B)^{-1}=B^{-1}\cdot A^{-1}}.}

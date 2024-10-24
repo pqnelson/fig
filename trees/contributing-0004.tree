@@ -1,0 +1,22 @@
+\title{Taxonomy of Definitions}
+\author{alex-nelson}
+\import{notation}
+\date{2024-10-23}
+
+\p{After thinking about it for a while, I realized not all proofs easily fall into the Baez-Dolan "Stuff, Structure, Properties" template. A lot will, but there are some edgecases which fall through the cracks.}
+
+\p{Instead of working with such ambiguity, it might be better to work with Mizar's taxonomy of definitions.}
+
+\ul{
+\li{\emph{Terms} introduce new terms, possibly parametrized by other terms.}
+\li{\emph{Predicates} introduce new predicates on terms.}
+\li{\emph{Modes} (or \emph{Types}) introduce new "soft types" on terms.}
+\li{\emph{Attributes} introduce new adjectives for modes.}
+\li{\emph{Structures} (like a \emph{Magma}, a set equipped with a binary operator) introduce several things simultaneously:
+\ol{
+\li{A \emph{Type} for the structure}
+\li{A \emph{Constructor}, which forms a new term roughly corresponding to a "record type" (key-value pairings)}
+\li{\emph{Selectors} which project out fields of a term (instance of the structure)}
+}}
+}
+\p{Essentially, a "type" can be understood to refer to a proper class in the metatheory, just as a "structure" can be understood to refer to a tuple in the metatheory.} 

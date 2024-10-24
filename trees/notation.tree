@@ -1,5 +1,5 @@
 \title{Notation common to group theory}
-
+\export{latex-macros}
 \def\define[tm]{\em{\strong{"\tm"}}}
 
 
@@ -77,3 +77,5 @@
 \def\rightcosets[G][H]{\G\backslash\H}
 \def\index[G][H]{[\G : \H]}
 
+
+\def\MML[article][name][link-anchor]{\meta{source}{MML [\article:\name](https://mizar.uwb.edu.pl/version/current/html/\article.html#\link-anchor)}}

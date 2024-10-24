@@ -3,6 +3,12 @@
 \import{notation}
 \date{2024-01-06}
 \taxon{theorem}
+\MML{group_2}{thm 29}{T29}
+\MML{group_2}{thm 30}{T30}
+\MML{group_2}{thm 31}{T31}
+\MML{group_2}{thm 32}{T32}
+\MML{group_2}{thm 33}{T33}
+\MML{group_2}{thm 34}{T34}
 
 \p{Let #{G} be a group. Let #{g} and #{h} be elements of #{G}. Let #{A} and #{B} be subsets of #{G}. Then the following hold:
 \ol{

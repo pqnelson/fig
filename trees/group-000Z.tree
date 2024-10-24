@@ -3,5 +3,6 @@
 \import{notation}
 \date{2024-01-06}
 \taxon{theorem}
+\MML{group_2}{thm 88}{T88}
 
 \p{Let #{G} be a group. Let #{H_{1}} and #{H_{2}} be subgroups of #{G}. Then #{H_{1}\cap H_{2}} is a subgroup of both #{H_{1}} and #{H_{2}}.}

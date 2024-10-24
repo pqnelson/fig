@@ -1,0 +1,14 @@
+\title{Well-formedness proofs}
+\author{alex-nelson}
+\import{notation}
+\date{2024-10-23}
+
+\p{Also note that we should \emph{prove} a definition is well-formed. Each kind of definition demands a different proof. We can use, e.g., Mizar's taxonomy of definitions to give us the following proof requirements:}
+\ul{
+\li{\emph{Terms} require proving the existence and uniqueness of the term (unless we introduce it as an abbreviation, then we just need to prove it "has the right type")}
+\li{\emph{Predicates} are already well-formed}
+\li{\emph{Types} requires proving the existence of at least one object belonging to the type.}
+\li{\emph{Attributes} (adjectives) requiring proving the existence of at least one such gadget with that adjective. Otherwise it could act "merely" as a predicate (in a proposition of the form "<object> is/has <attribute>").}
+\li{\emph{Structures} are already well-formed, but if we have additional properties imposed, then we need to prove there exists a structure instance satisfying those properties. (We do this with, e.g., a group.)}
+}
+\p{Since a "type" is just a class in the metatheory (or, equivalently, a predicate in the ambient logic), well-formedness requires proving this be nonempty. Otherwise, we have an empty domain, and we no longer work with classical logic.}

@@ -4,6 +4,8 @@
 
 \p{References (think: bibtex entries with delusions of grandeur) should be placed in their own file in the \code{trees/refs/} directory. The file name should coincide with the Bibtex entry key, preferably \code{author-year-first-word-of-title}.}
 
+\p{The exceptions are "Bibles" of the field. For example, [dummit-foote](dummit-foote) unambiguously refers to the abstract algebra textbook by that name.}
+
 \p{The mandatory entries are:}
 
 \ol{
