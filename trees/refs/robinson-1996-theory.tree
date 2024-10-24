@@ -3,10 +3,10 @@
 \date{1996}
 \taxon{reference}
 
-\meta{bibtex}{\startverb%
+\meta{bibtex}{\startverb
 @book{robinson1996theory,
-  title={{A Course in the Theory of Groups}},
   author={Robinson, Derek J.S.},
+  title={{A Course in the Theory of Groups}},
   edition={Second}
   year={1996},
   publisher={Springer}

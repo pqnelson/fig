@@ -1,0 +1,13 @@
+\title{The Theory of Finite Group Theory}
+\date{2004}
+\author{hans-kurzweil}
+\author{bernd-stellmacher}
+\taxon{reference}
+
+\meta{bibtex}{\startverb
+@book{kurzweil2006theory,
+  author={Kurzweil, Hans and Stellmacher, Bernd},
+  title={{The Theory of Finite Groups: An Introduction}},
+  year={2006},
+  publisher={Springer}
+}\stopverb}

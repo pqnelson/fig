@@ -4,10 +4,10 @@
 \date{2004}
 \taxon{reference}
 
-\meta{bibtex}{\startverb%
+\meta{bibtex}{\startverb
 @book{dummit-foote,
-  title={{Abstract Algebra}},
   author={Dummit, David S. and Foote, Richard M.},
+  title={{Abstract Algebra}},
   year={2004},
   edition={Third},
   publisher={Wiley}

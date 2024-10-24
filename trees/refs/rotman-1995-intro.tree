@@ -3,10 +3,10 @@
 \date{1995}
 \taxon{reference}
 
-\meta{bibtex}{\startverb%
+\meta{bibtex}{\startverb
 @book{rotman1995intro,
-  title={{An Introduction to the Theory of Groups}},
   author={Rotman, Joseph},
+  title={{An Introduction to the Theory of Groups}},
   volume={148},
   year={1995},
   publisher={Cambridge University Press}

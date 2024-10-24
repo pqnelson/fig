@@ -3,10 +3,10 @@
 \author{michael-aschbacher}
 \taxon{reference}
 
-\meta{bibtex}{\startverb%
+\meta{bibtex}{\startverb
 @book{aschbacher2000finite,
-  title={Finite group theory},
   author={Aschbacher, Michael},
+  title={{Finite Group Theory}},
   volume={10},
   year={2000},
   publisher={Cambridge University Press}

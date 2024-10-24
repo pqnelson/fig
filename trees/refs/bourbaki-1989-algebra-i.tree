@@ -3,10 +3,10 @@
 \date{1989}
 \taxon{reference}
 
-\meta{bibtex}{\startverb%
+\meta{bibtex}{\startverb
 @book{bourbaki-1989-algebra-i,
-  title={{Algebra I}},
   author={Bourbaki, Nicolas},
+  title={{Algebra I}},
   year={1989},
   publisher={Springer}
 }\stopverb}
