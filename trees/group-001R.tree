@@ -1,0 +1,17 @@
+\title{Normalizer}
+\author{alex-nelson}
+\import{notation}
+\date{2024-10-28}
+\taxon{definition}
+\MML{group_3}{def 13}{K10}
+\MML{group_3}{def 15}{K11}
+
+\p{Let #{G} be a group, let #{A} be a subset of #{G}. We define the \define{Normalizer} of #{A} to be the [strict] Subgroup of #{G} denoted #{\normalizer{G}{A}} whose underlying set equals:} ##{\underlying{\normalizer{G}{A}}=\{g\in G\mid A^{g} = g^{-1}Ag = A\}.}
+\p{Further, for any subgroup #{H\subgroup G}, we can define its \define{Normalizer} to be the [strict] subgroup of #{G} denoted #{\normalizer{G}{H}} which equals the normalizer of the underlying set of the subgroup #{\normalizer{G}{H}=\normalizer{G}{\underlying{H}}}.}
+
+\p{Also beware: it is common for Group theorists to implicitly define the related predicate(s):
+\ul{
+\li{"#{g} \define{normalizes} #{A}" mean #{A^{g}=g^{-1}Ag=A}; i.e., #{g\in\normalizer{G}{A}}}
+\li{"#{g} \define{normalizes} a subgroup #{H}" if it normalizes the underlying set #{\underlying{H}}}
+\li{for subgroups #{H} and #{K}, we should know "#{H} \define{normalizes} #{K}" means "for all #{h\in H}, #{h} normalizes #{K}".}}
+...and so on. I won't exhaust all possibilities here, because there are nine possibilities ([element, subset, subgroup] normalizes [element, subset, subgroup]).}

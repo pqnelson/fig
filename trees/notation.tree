@@ -72,6 +72,7 @@
 \def\propersubgroup{\lt}
 
 \def\normalSubgroup{\trianglelefteq}
+\def\normalizer[group][subset]{N_{\group}(\subset)}
 
 \def\leftcosets[G][H]{\G / \H}
 \def\rightcosets[G][H]{\G\backslash\H}
