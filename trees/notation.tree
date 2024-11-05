@@ -78,5 +78,6 @@
 \def\rightcosets[G][H]{\G\backslash\H}
 \def\index[G][H]{[\G : \H]}
 
+\def\Subgroups{\mathop{\textrm{SubGr}}\nolimits}
 
 \def\MML[article][name][link-anchor]{\meta{source}{MML [\article:\name](https://mizar.uwb.edu.pl/version/current/html/\article.html#\link-anchor)}}

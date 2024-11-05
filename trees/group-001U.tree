@@ -1,0 +1,21 @@
+\title{Conjugation of identity element}
+\author{alex-nelson}
+\import{notation}
+\date{2024-11-05}
+\taxon{theorem}
+\MML{group_3}{thm 17}{T17}
+\MML{group_3}{thm 18}{T18}
+\MML{group_3}{thm 19}{T19}
+\MML{group_3}{thm 20}{T20}
+\MML{group_3}{thm 21}{T21}
+\MML{group_3}{thm 22}{T22}
+
+\p{Let #{G} be a group, let #{a} and #{b} be elements of #{G}, and let #{1_{G}} be the identity element of #{G}. Then:}
+\ol{
+\li{#{(1_{G})^{a} = 1_{G}},}
+\li{#{a^{1_{G}}=a},}
+\li{if #{a^{b}=1_{G}}, then #{a=1_{G}},}
+\li{#{a^{a}=a},}
+\li{#{a^{a^{-1}}=a} and #{(a^{-1})^{a} = a^{-1}},}
+\li{#{a^{b}=a} if and only if #{ab=ba}}
+}

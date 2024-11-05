@@ -1,0 +1,8 @@
+\title{Conjugation of Subsets of a Group}
+\author{alex-nelson}
+\import{notation}
+\date{2024-11-05}
+\taxon{definition}
+\MML{group_3}{def 3}{K3}
+
+\p{Let #{G} be a group, let #{A\subset G} and #{B\subset G} be subsets of #{G}. We define the subset ##{A^{B}=\{a^{b}\in G\mid a\in A,b\in B\}.}}

@@ -1,0 +1,13 @@
+\title{Conjugate of product is product of conjugates}
+\author{alex-nelson}
+\import{notation}
+\date{2024-11-05}
+\taxon{theorem}
+\MML{group_3}{thm 23}{T23}
+\MML{group_3}{thm 24}{T24}
+
+\p{Let #{G} be a group, let #{a}, #{b}, and #{g} be elements of #{G}. Then:}
+\ol{
+\li{#{(ab)^{g} = (a^{g})(b^{g})}}
+\li{#{(g^{a})^{b}=g^{ab}}}
+}

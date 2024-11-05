@@ -1,0 +1,8 @@
+\title{Powers of conjugates and conjugates of powers}
+\author{alex-nelson}
+\import{notation}
+\date{2024-11-05}
+\taxon{theorem}
+\MML{group_3}{thm 28}{T28}
+
+\p{Let #{G} be a group, let #{g} and #{h} be elements of #{G}, let #{m} be an integer. Then #{(g^{m})^{h} = (g^{h})^{m}}.}

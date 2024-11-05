@@ -1,0 +1,11 @@
+\title{Set of Subgroups}
+\taxon{definition}
+\author{alex-nelson}
+\import{notation}
+\date{2024-11-05}
+\MML{group_3}{def 1}{K1}
+\MML{group_3}{thm 15}{T15}
+
+\p{Let #{G} be a group. We define the new term #{\Subgroups(G)} to be the nonempty set of all subgroups of #{G}.}
+
+\p{Further, if #{G} is a finite group, then #{\Subgroups(G)} is a finite nonempty set.}
